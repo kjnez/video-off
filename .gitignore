@@ -1,0 +1,12 @@
+_metadata/
+*.zip
+*.crx
+*~
+
+.venv/
+.codex
+
+.DS_Store
+Thumbs.db
+
+/AGENTS.md
