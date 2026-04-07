@@ -57,18 +57,6 @@ python3 -m json.tool extension/rules.json >/dev/null
 
 When adding blocking coverage, keep rule IDs unique and prefer focused, explainable `urlFilter` patterns. Avoid adding broad site-specific rules unless they materially improve blocking and are easy to justify.
 
-## Release Packaging
-
-For a source release, include the extension source files and omit local/generated files such as `_metadata/`, `*.json~`, `.venv/`, packaged ZIPs, and browser-generated artifacts.
-
-For a Chrome Web Store package, `manifest.json` must be at the ZIP root:
-
-```sh
-(cd extension && zip -r ../video-off.zip manifest.json rules.json icons/)
-```
-
-The `extension/` folder already includes packaged icons.
-
 ## Contributing
 
 Rule contributions are welcome when they are narrow, readable, and improve real video blocking behavior. Please include the site or media pattern that motivated the change and note any expected tradeoffs.
