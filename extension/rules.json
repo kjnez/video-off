@@ -43,5 +43,32 @@
       "urlFilter": ".webm",
       "resourceTypes": ["media", "xmlhttprequest", "other"]
     }
+  },
+  {
+    "id": 6,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": ".wmv",
+      "resourceTypes": ["media", "xmlhttprequest", "other"]
+    }
+  },
+  {
+    "id": 7,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": ".m4v",
+      "resourceTypes": ["media", "xmlhttprequest", "other"]
+    }
+  },
+  {
+    "id": 8,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": ".ogv",
+      "resourceTypes": ["media", "xmlhttprequest", "other"]
+    }
   }
 ]
