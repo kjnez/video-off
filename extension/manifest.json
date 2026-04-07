@@ -1,21 +1,21 @@
 {
   "manifest_version": 3,
-  "name": "Block Video",
+  "name": "Video Off",
   "version": "1.0",
   "description": "Blocks common online video streams and media files in Chrome.",
   "icons": {
-    "16": "icons/chrome_block_video_16.png",
-    "32": "icons/chrome_block_video_32.png",
-    "48": "icons/chrome_block_video_48.png",
-    "128": "icons/chrome_block_video_128.png"
+    "16": "icons/video_off_16.png",
+    "32": "icons/video_off_32.png",
+    "48": "icons/video_off_48.png",
+    "128": "icons/video_off_128.png"
   },
   "action": {
-    "default_title": "Block Video",
+    "default_title": "Video Off",
     "default_icon": {
-      "16": "icons/chrome_block_video_16.png",
-      "32": "icons/chrome_block_video_32.png",
-      "48": "icons/chrome_block_video_48.png",
-      "128": "icons/chrome_block_video_128.png"
+      "16": "icons/video_off_16.png",
+      "32": "icons/video_off_32.png",
+      "48": "icons/video_off_48.png",
+      "128": "icons/video_off_128.png"
     }
   },
   "permissions": ["declarativeNetRequest"],

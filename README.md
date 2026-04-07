@@ -1,6 +1,6 @@
-# Block Video
+# Video Off
 
-Block Video is a small Manifest V3 Chrome extension that blocks common online video playback requests.
+Video Off is a small Manifest V3 Chrome extension that blocks common online video playback requests.
 
 It uses Chrome's `declarativeNetRequest` API with a static ruleset. There is no background service worker, no content script, no analytics, and no remote code.
 
@@ -32,7 +32,7 @@ The extension currently uses `host_permissions: ["<all_urls>"]` because declarat
 
 ## Privacy
 
-Block Video does not collect, store, transmit, sell, or share user data.
+Video Off does not collect, store, transmit, sell, or share user data.
 
 All blocking happens locally in Chrome through the extension's static `declarativeNetRequest` ruleset. See [PRIVACY.md](PRIVACY.md) for the full privacy note.
 
@@ -64,7 +64,7 @@ For a source release, include the extension source files and omit local/generate
 For a Chrome Web Store package, `manifest.json` must be at the ZIP root:
 
 ```sh
-(cd extension && zip -r ../block-video.zip manifest.json rules.json icons/)
+(cd extension && zip -r ../video-off.zip manifest.json rules.json icons/)
 ```
 
 The `extension/` folder already includes packaged icons.
